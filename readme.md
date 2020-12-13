@@ -2,17 +2,33 @@
 
 study of next.js app
 
-# start dev
+# setup
+
+```
+$ npm install react react-dom next
+$ npm install @types/react-dom @types/node typescript -D
+```
+
+# usage
+
+## start dev
 
 $ npx next
 
-# build
+## build
 
 $ npx next build
 
-# run prodaction mode
+## run production mode
 
 $ npx next start
+
+## export static site
+
+$ npx next build
+$ npx next export
+
+--> out/*
 
 # refer
 
