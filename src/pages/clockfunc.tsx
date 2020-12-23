@@ -1,3 +1,8 @@
+//
+// clock with Function component and Hooks
+//  refer: https://productoptimist.com/start-using-react-hooks-a-clock-timer-example/
+//
+
 import { useState, useEffect } from 'react';
 
 function Clock() {
